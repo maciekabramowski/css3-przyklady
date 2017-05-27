@@ -15,7 +15,8 @@ p {
 #par1::after{
 /*    content: '\8704';*/
 /*    content: '\00a7';*/
-    content: '\8678';
+/*    content: '\8678';*/
+    content: '\3432';
     color: #fff;
     font-size: 3em;
 }
@@ -91,4 +92,24 @@ li:nth-child(3n){
 
 li:nth-child(2n+3):hover{
     background-color: olive;
+}
+
+input[title]{
+    background-color: aqua;
+}
+
+input[type="text"]{
+    background-color: aquamarine;
+}
+
+input[title~="tytuł"]{
+    background-color: indianred;
+}
+
+input[title*="tu"]{
+    background-color: brown;
+}
+
+input[title^="inn"]{
+    background-color: darkslateblue;
 }
