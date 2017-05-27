@@ -1,0 +1,31 @@
+/*
+*{
+   background-color: #313131;
+}*/
+
+p {
+    background-color: #FF2244;
+}
+
+/* Pseudo selektory */
+
+#par1::before,
+#par1::after{
+/*    content: '\8704';*/
+/*    content: '\00a7';*/
+    content: '\8678';
+    color: #fff;
+    font-size: 3em;
+}
+
+#par2::first-line{
+    font-size: 2em;
+}
+
+#par2::first-letter{
+    color: #fff;
+}
+
+#par1::first-letter{
+    font-size: 20em;
+}
